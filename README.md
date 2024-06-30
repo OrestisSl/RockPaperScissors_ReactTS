@@ -14,3 +14,11 @@ Rock-Paper-Scissors game built with React and TypeScript. The game features a po
 - **📘 TypeScript**: A strongly typed programming language that builds on JavaScript.
 - **💨 Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **⚡ Vite**: A fast build tool and development server.
+
+## 🖥️ Demo
+
+[View Demo](https://rockpaperscissors-reacts.netlify.app/)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
