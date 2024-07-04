@@ -32,15 +32,15 @@ const useGameLogic = () => {
 
   const handleWinner = (player: GameChoice, comp: GameChoice) => {
     if (player === comp) {
-      setMsg("DRAW");
+      setMsg("DRAW 🙂‍");
     } else if (
       (player === GameChoice.ROCK && comp === GameChoice.SCISSORS) ||
       (player === GameChoice.PAPER && comp === GameChoice.ROCK) ||
       (player === GameChoice.SCISSORS && comp === GameChoice.PAPER)
     ) {
-      setMsg("PLAYER WINS");
+      setMsg("PLAYER WINS 😁");
     } else {
-      setMsg("COMPUTER WINS");
+      setMsg("COMPUTER WINS 😓");
     }
   };
 

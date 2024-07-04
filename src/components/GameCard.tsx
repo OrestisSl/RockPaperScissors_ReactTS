@@ -1,7 +1,14 @@
 import { useGameLogic, GameChoice } from "../hooks/useGameLogic";
 
 const GameCard = () => {
-  const { playerChoice, compChoice, msg: result, isGameActive, startGame, resetGame } = useGameLogic();
+  const {
+    playerChoice,
+    compChoice,
+    msg: result,
+    isGameActive,
+    startGame,
+    resetGame,
+  } = useGameLogic();
 
   return (
     <div className="w-96 h-auto bg-white text-center text-lg font-sans font-semibold rounded-3xl shadow-2xl p-10 flex flex-col justify-between space-y-6">
@@ -51,7 +58,7 @@ const GameCard = () => {
       </div>
       <div className="mt-4">
         <p className="text-xl text-gray-700">Result:</p>
-        <p className="text-2xl font-bold text-green-600 mt-2">{result}</p>
+        <p className="text-2xl font-bold mt-2 text-green-600 ">{result}</p>
       </div>
     </div>
   );
